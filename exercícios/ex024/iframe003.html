@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veniam ea tempora sunt alias! Cum, inventore. Vel quam magni officiis suscipit natus! Neque fuga debitis recusandae, harum saepe eligendi deleniti.</p>
+
+    <ul>
+        <li> <a href="paginasextras/pag001.html" target="frame">primeira pagina</a></li>
+        <li> <a href="paginasextras/pag002.html" target="frame">segunda pagina</a></li>
+        <li><a href="paginasextras/pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus quod dolore quis aliquid perspiciatis, quo voluptates corrupti quos deserunt ea eos eius unde rem enim mollitia deleniti asperiores beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis veritatis aliquam similique optio ullam dolor magnam, at veniam vel, voluptas soluta iusto deleniti. Fuga eligendi quam quia eveniet, velit modi!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eos commodi sequi modi? Consectetur sunt autem voluptatum exercitationem doloremque tempore facere, perferendis nesciunt, eum molestiae impedit sit. Praesentium, sed id!</p>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    
+</body>
+</html>
